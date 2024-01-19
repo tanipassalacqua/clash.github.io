@@ -1,0 +1,95 @@
+#b{
+	background-color: #FFB218;
+}
+/*CSS MENU*/
+.header{
+	background-color: #FFB218;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+box-shadow:  5px 5px 12px #d99714,
+             -5px -5px 12px #ffcd1c;
+}
+.header a{
+	text-decoration: none;
+	color: white;
+}
+.logo-nav-container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.navigation ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.navigation ul li{
+	display: inline-block;
+}
+.navigation ul li a{
+	display: block;
+	padding: 5px 25px;
+	transition: all 0.2s;
+	border-radius: 5px;
+}
+.navigation ul li a:hover{
+	background-color: #FFD074;
+}
+.main{
+	margin-top: 50px;
+	
+}
+/*CSS LISTA DE QUEHACERES*/
+.tareas
+	{
+
+	border-radius: 16px;
+background: #FFB218;
+box-shadow: inset 6px 6px 12px #d99714,
+            inset -6px -6px 12px #ffcd1c;
+	padding: 50px;
+	border: 0;
+	height: 300px
+}
+.tareas2
+	{
+
+	border-radius: 16px;
+background: #FFB218;
+box-shadow: inset 6px 6px 12px #d99714,
+            inset -6px -6px 12px #ffcd1c;
+	padding: 50px;
+	border: 0;
+}
+#TEXTO{
+	border-radius: 16px;
+background: #FFB218;
+box-shadow: inset 6px 6px 12px #d99714,
+            inset -6px -6px 12px #ffcd1c;
+	padding: 50px;
+}
+#reloj{
+	font-size: 68px;
+    color: #4a4a4a;
+    font-family: "Arial Black", Gadget, sans-serif;
+    text-shadow: 0px 0px 0 rgb(26,26,26),
+                 1px 1px 0 rgb(22,22,22),
+                 2px 2px 0 rgb(18,18,18),
+                 3px 3px 0 rgb(13,13,13),
+                 4px 4px 0 rgb(9,9,9),
+                 5px 5px 0 rgb(5,5,5),
+                 6px 6px 0 rgb(1,1,1),
+                 7px 7px 0 rgb(-3,-3,0),
+                 8px 8px 0 rgb(-7,-7,0),
+                 9px 9px 0 rgb(-12,-12,0),
+                 10px 10px 0 rgb(-16,-16,0),
+                 11px 11px 0 rgb(-20,-20,0),
+                 12px 12px  0 rgb(-24,-24,0),
+                 13px 13px 12px rgba(56,56,56,0.42),
+                 13px 13px 1px rgba(56,56,56,0.5),
+                 0px 0px 12px rgba(56,56,56,.2);
+                 margin-bottom: 75px;
+}
